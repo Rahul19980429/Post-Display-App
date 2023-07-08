@@ -1,0 +1,97 @@
+.main nav {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10;
+}
+.main ul {
+  width: 100%;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: center;
+}
+.main ul li {
+  list-style: none;
+  margin-right: 5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main ul li:hover {
+  color: rgba(206, 23, 23, 0.955);
+}
+.postDiv {
+  display: flex;
+}
+.mainBox {
+  margin: 2em 0;
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.ScrollDiv {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  width: 60%;
+  max-height: 86vh;
+  overflow-y: scroll;
+  padding: 0 1.5em;
+}
+
+.div75 {
+  padding: 2em;
+  width: 75%;
+}
+.div25 {
+  width: 25%;
+}
+.imgSet {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.title,
+.description,
+.rating {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+}
+.title {
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+  margin-bottom: 16px;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.rating {
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.price {
+  margin-bottom: 0.5em;
+}
+.Div20 {
+  width: 20%;
+  text-align: center;
+
+  margin: auto 0;
+}
+.userProfile {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  margin: 2em auto;
+  background-color: rgb(57, 53, 53);
+}
